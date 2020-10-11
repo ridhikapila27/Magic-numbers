@@ -1,7 +1,6 @@
 # Magic-numbers
 #include<iostream>
 using namespace = std;
-
 bool isMagic(int n)
 {
      int sum = 0;
