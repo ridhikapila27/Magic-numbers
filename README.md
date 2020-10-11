@@ -3,9 +3,7 @@
 bool isMagic(int n)
 {
      int sum = 0;
-
-     //It stops when n=0
-     while (n>0 || sum>9)
+    while (n>0 || sum>9) 
      {
           if (n==0)
           {
@@ -15,8 +13,7 @@ bool isMagic(int n)
            sum +=n % 10;
            n /= 10;
      }
-     //Return true if sum becomes 1
-     return (sum==1);
+     return (sum==1);  //Return true if sum becomes 1
 }
 //Driver code
 int main()
